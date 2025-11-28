@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Togglebutton from "./togglebutton"
 
 
 export default function TextInput (){
@@ -13,6 +14,12 @@ export default function TextInput (){
 
             <p className="m-5 font-bold">the text is {txt}</p>
            </div>
+
+           <div className="mt-5">
+            <Togglebutton />
+           </div>
+
+           
         </>
     )
 }

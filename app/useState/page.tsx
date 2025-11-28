@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import TextInput from "./testInput";
+import ArrayList from "./ArrayList";
 
 const useStateDemo = ()=>{
 
@@ -19,6 +20,14 @@ const useStateDemo = ()=>{
            <div className="mt-5 text-bold">
             <TextInput />
            </div>
+
+          
+
+           <div>
+            <ArrayList />
+           </div>
+
+          
         </div>
         
 
