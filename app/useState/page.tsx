@@ -2,6 +2,8 @@
 import { useState } from "react";
 import TextInput from "./testInput";
 import ArrayList from "./ArrayList";
+import { Separator } from "./Separator";
+
 
 const useStateDemo = ()=>{
 
@@ -25,6 +27,10 @@ const useStateDemo = ()=>{
 
            <div>
             <ArrayList />
+           </div>
+
+           <div>
+            <Separator />
            </div>
 
           
